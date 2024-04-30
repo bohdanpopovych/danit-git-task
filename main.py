@@ -5,6 +5,7 @@ from multiprocessing import Pool, Process
 from helpers import *
 
 
+# some comment
 @timing
 def get_unique_names_df():
     names = df ['name']
